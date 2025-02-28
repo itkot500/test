@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background: red;
+    padding: 22px 0;
+    position: sticky;
+    top: 0;
+}
+
+.container_header {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo_img {
+    width: 65px;
+    height: 48px;
+    border-radius: 10%;
+}
+
+.logo_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    margin: auto 10px;
+}
+
+.nav {
+    margin: auto 0 auto auto;
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+}
+
+.nav_item {
+    margin-right: 63px;
+}
+
+.nav_link {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav_link:hover {
+    color: #00C4F0;
+    cursor: pointer;
+}
+
+.home {
+    background: green;
+    padding: 66px 0;
+}
+
+.container_home {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.home_img {
+    width: 632px;
+    height: 574px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.home_content {
+    width: 476px;
+    height: 220px;
+    margin: auto 0;
+}
+
+.home_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    color: white;
+}
+
+.home_desc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+}
+
+.home_btn {
+    width: 224px;
+    height: 47px;
+    background: yellow;
+    box-shadow: 0px 2px 13px rgba(255, 206, 206, 0.48);
+    border-radius: 6px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: black;
+    border: 0;
+    margin-top: 20px;
+}
+
+.video {
+    background: rgb(131, 131, 39);
+}
+
+.container_video {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.video__title {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.video__video {
+    width: 970px;
+    height: 600px;
+    border: 50px solid black;
+    border-radius: 29px;
+    box-sizing: border-box;
+}
+
+.about_content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 50px auto 0;
+}
+.about_img {
+    width: 700px;
+}
+.about {
+    background: rgb(69, 8, 8);
+}
+
+.container_about {
+    padding: 70px;
+}
+
+.exit__logo {
+    width: 632px;
+    height: 575px;
+}
+
+.skills {
+    width: 356px;
+    margin: auto 0;
+}
+
+.skills_full {
+    height: 10px;
+    width: 100%;
+    background: rgb(44, 44, 44);
+    margin-bottom: 72px;
+}
+
+.skills_done {
+    background: blue;
+    width: 30%;
+    height: 10px;
+}
+
+.about_title {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.skills_rating {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 72px;
+}
+
+.skills_name {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.skills_list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills {
+    width: 356px;
+    margin: auto;
+}
+.gallery_list{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    justify-content:space-between ;
+    margin: auto;
+    list-style: none;
+}
+.gallery_item{
+width: 32%;
+}
+.gallery_img {
+width: 100%;
+margin-bottom: 25px;
+}
+.gallery_title{
+    text-align: center;
+    color: rgb(228, 228, 228);
+font-family: Nico Moji;
+font-size: 48px;
+font-weight: 400;
+margin-bottom: 50px;
+}
+.gallery {
+    padding: 50px 0;
+    background: rgb(9, 108, 108);
+}
+
+.footer_list {
+    list-style: none;
+    display: flex;
+    width: 225px;
+    justify-content: space-between;
+}
+footer {
+    background: rgb(255, 255, 255);
+    padding: 50px 0;
+}
+
+.footer_container {
+    display: flex;
+    max-width: 1400px;
+    justify-content: space-between;
+    margin: auto; 
+    align-items: center;
+}
+.footer_title {
+    color: rgb(255, 0, 0);
+font-family: Nico Moji;
+font-size: 30px;
+font-weight: 400;
+}
+.footer_text{
+    color: rgb(174, 105, 105);
+    font-family: Nico Moji;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 18px;
+}
